@@ -34,7 +34,7 @@ aside {
   flex-basis: 18rem;
 }
 
-.quantity-group {
+.quantity-field {
   background-color: var(--card);
   padding: 0.5rem;
   display: flex;
@@ -50,7 +50,7 @@ aside {
   font-weight: medium;
 }
 
-.text {
+.obj1-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,7 +72,7 @@ main {
   gap: 2rem;
 }
 
-.item {
+.item-card {
   background-color: var(--card);
   padding: 0.75rem;
 }

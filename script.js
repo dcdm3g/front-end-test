@@ -6,7 +6,7 @@ function handleQuantityInputChange(event) {
 
   for (let i = 1; i <= quantity; i++) {
     const itemElement = document.createElement('li')
-    itemElement.className = 'item'
+    itemElement.className = 'item-card'
     
     const numberElement = document.createElement('h2')
     numberElement.innerText = i
