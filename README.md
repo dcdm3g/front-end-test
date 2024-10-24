@@ -4,7 +4,7 @@ This is a simple website built using Express and EJS and deployed on [Render](ht
 
 ## Run Yourself
 
-> Make sure you have [NodeJS](https://nodejs.org) and some [PNPM](https://pnpm.io) before trying to run this app.
+> Make sure you have [NodeJS](https://nodejs.org) and [PNPM](https://pnpm.io) before trying to run this app.
 
 Run the following commands in your terminal to run this app locally:
 
