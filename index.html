@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Front-end Test</title>
+  <meta name="description" content="This is a simple front-end test.">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="quantity-group">
+      <label class="quantity-label" for="quantity">Quantity</label>
+      <input 
+        id="quantity" 
+        type="number"
+        min="0"
+        oninput="handleQuantityInputChange(event)"
+        placeholder="Type here"
+      >
+    </div>
+
+    <div class="text">OBJ1</div>
+  </aside>
+
+  <main>
+    <ul class="item-list">
+      <li class="item">
+        <h2 class="item-number">1</h2>
+      </li>
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
