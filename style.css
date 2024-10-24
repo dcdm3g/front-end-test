@@ -21,14 +21,14 @@ li {
 
 body {
   display: flex;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   height: 100vh;
 }
 
 aside {
   background-color: var(--sidebar-background);
   color: var(--sidebar-foreground);
-  border-right: 1px solid var(--border);
+  border-right: 2px solid var(--border);
   position: relative;
   display: flex;
   align-items: center; 
@@ -55,7 +55,7 @@ aside {
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   padding: 1.25rem;
 }
 
