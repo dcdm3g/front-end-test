@@ -9,21 +9,25 @@ li {
 }
 
 :root {
-  --gray-200: #e5e7eb;
-  --gray-300: #d1d5db;
-  --gray-400: #9ca3af;
-  --gray-500: #6b7280;
+  --card: #b0adad;
+  --background: #e8e7e7;
+  --border: #9c9c9c;
+  --sidebar-background: #c0c0c0;
+  --sidebar-foreground: #2b2b2b;
+  --item-number-background: #d1cfcf;
+  --item-number-foreground: #0d0d0d;
 }
 
 body {
   display: flex;
-  border: 1px solid var(--gray-500);
+  border: 1px solid var(--border);
   height: 100vh;
 }
 
 aside {
-  background-color: var(--gray-400);
-  border-right: 1px solid var(--gray-500);
+  background-color: var(--sidebar-background);
+  color: var(--sidebar-foreground);
+  border-right: 1px solid var(--border);
   position: relative;
   display: flex;
   align-items: center; 
@@ -31,7 +35,7 @@ aside {
 }
 
 .quantity-group {
-  background-color: var(--gray-500);
+  background-color: var(--card);
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -41,8 +45,8 @@ aside {
 }
 
 .quantity-label {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.75rem; /* 28px */
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: medium;
 }
 
@@ -50,13 +54,13 @@ aside {
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 1px solid var(--gray-500);
+  border: 1px solid var(--border);
   padding: 1.25rem;
 }
 
 main {
   flex: 1 1 0%;
-  background-color: var(--gray-100);
+  background-color: var(--background);
   padding: 1.75rem;
   overflow-y: scroll;
   max-height: 100vh;
@@ -69,7 +73,7 @@ main {
 }
 
 .item {
-  background-color: var(--gray-400);
+  background-color: var(--card);
   padding: 0.75rem;
 }
 
@@ -80,8 +84,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--gray-200);
-  border: 1px solid var(--gray-300);
+  background-color: var(--item-number-background);
+  color: var(--item-number-foreground);
+  border: 1px solid var(--border);
   border-radius: 50%;
   height: 2.5rem;
   width: 2.5rem;
