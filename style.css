@@ -16,6 +16,7 @@ li {
   --sidebar-foreground: #2b2b2b;
   --item-number-background: #d1cfcf;
   --item-number-foreground: #0d0d0d;
+  --item-number-border: #b7b6b6;
 }
 
 body {
@@ -86,7 +87,7 @@ main {
   align-items: center;
   background-color: var(--item-number-background);
   color: var(--item-number-foreground);
-  border: 1px solid var(--border);
+  border: 1px solid var(--item-number-border);
   border-radius: 50%;
   height: 2.5rem;
   width: 2.5rem;
